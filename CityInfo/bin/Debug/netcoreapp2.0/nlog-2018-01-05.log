@@ -1,0 +1,94 @@
+2018-01-05 11:25:55.8860|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/  
+2018-01-05 11:25:56.0627|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 202.9245ms 404 text/plain
+2018-01-05 11:25:56.0875|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/favicon.ico  
+2018-01-05 11:25:56.0875|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.0148ms 404 text/plain
+2018-01-05 11:25:56.8935|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/api/cities/5/pointsOfInterest application/json 
+2018-01-05 11:25:56.9919|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.GestPointOfInterest (CityInfo) with arguments (5) - ModelState is Valid
+2018-01-05 11:26:04.9614|FATAL|CityInfo.Controllers.PointsOfInterestController|Exception while getting points of interest for city with id 5.
+2018-01-05 11:26:04.9716|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-01-05 11:26:04.9884|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.GestPointOfInterest (CityInfo) in 8026.7967ms
+2018-01-05 11:26:04.9884|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8099.4173ms 500 text/plain; charset=utf-8
+2018-01-05 11:41:27.6501|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/  
+2018-01-05 11:41:27.8263|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 204.3233ms 404 text/plain
+2018-01-05 11:41:27.8532|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/favicon.ico  
+2018-01-05 11:41:27.8610|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.6286ms 404 text/plain
+2018-01-05 11:41:41.6015|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/api/cities/5/pointsOfInterest application/json 
+2018-01-05 11:41:41.6833|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.GestPointOfInterest (CityInfo) with arguments (5) - ModelState is Valid
+2018-01-05 11:41:41.7164|FATAL|CityInfo.Controllers.PointsOfInterestController|Exception while getting points of interest for city with id 5.
+2018-01-05 11:41:41.7263|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-01-05 11:41:41.7425|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.GestPointOfInterest (CityInfo) in 77.9701ms
+2018-01-05 11:41:41.7425|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 145.6121ms 500 text/plain; charset=utf-8
+2018-01-05 11:42:08.2295|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:5299/api/cities/5/pointsOfInterest application/json 94
+2018-01-05 11:42:08.2390|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.3655ms 404 text/plain
+2018-01-05 11:42:56.5644|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:5299/api/cities/5/pointsOfInterest application/json 45
+2018-01-05 11:42:56.5644|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.7531ms 404 text/plain
+2018-01-05 11:43:06.5608|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/api/cities/5/pointsOfInterest application/json 
+2018-01-05 11:43:06.5669|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.GestPointOfInterest (CityInfo) with arguments (5) - ModelState is Valid
+2018-01-05 11:43:06.5914|FATAL|CityInfo.Controllers.PointsOfInterestController|Exception while getting points of interest for city with id 5.
+2018-01-05 11:43:06.5979|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-01-05 11:43:06.5979|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.GestPointOfInterest (CityInfo) in 37.2628ms
+2018-01-05 11:43:06.6118|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.4382ms 500 text/plain; charset=utf-8
+2018-01-05 11:43:19.4822|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/api/cities/2/pointsOfInterest application/json 
+2018-01-05 11:43:19.4873|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.GestPointOfInterest (CityInfo) with arguments (2) - ModelState is Valid
+2018-01-05 11:43:19.5085|FATAL|CityInfo.Controllers.PointsOfInterestController|Exception while getting points of interest for city with id 2.
+2018-01-05 11:43:19.5085|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-01-05 11:43:19.5165|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.GestPointOfInterest (CityInfo) in 29.0796ms
+2018-01-05 11:43:19.5165|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 40.0507ms 500 text/plain; charset=utf-8
+2018-01-05 11:43:52.6140|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/  
+2018-01-05 11:43:52.7984|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 211.8432ms 404 text/plain
+2018-01-05 11:43:52.8248|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/favicon.ico  
+2018-01-05 11:43:52.8309|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.9617ms 404 text/plain
+2018-01-05 11:43:59.3252|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/api/cities/2/pointsOfInterest application/json 
+2018-01-05 11:43:59.4082|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.GestPointOfInterest (CityInfo) with arguments (2) - ModelState is Valid
+2018-01-05 11:43:59.4236|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-01-05 11:43:59.4878|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.GestPointOfInterest (CityInfo) in 99.4909ms
+2018-01-05 11:43:59.4878|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 167.7611ms 200 application/json; charset=utf-8
+2018-01-05 11:44:05.5839|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:5299/api/cities/2/pointsOfInterest/1 application/json 45
+2018-01-05 11:44:05.5839|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) with arguments (2, 1) - ModelState is Valid
+2018-01-05 11:44:05.6042|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-01-05 11:44:05.6042|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) in 18.1055ms
+2018-01-05 11:44:05.6163|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.4587ms 204 
+2018-01-05 11:52:22.1866|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/  
+2018-01-05 11:52:22.3613|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 204.3698ms 404 text/plain
+2018-01-05 11:52:22.3875|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/favicon.ico  
+2018-01-05 11:52:22.3936|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.4226ms 404 text/plain
+2018-01-05 11:52:27.6797|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:5299/api/cities/2/pointsOfInterest/1 application/json 45
+2018-01-05 11:52:27.7540|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) in 4.546ms
+2018-01-05 11:52:27.8166|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-01-05 11:52:27.8749|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 196.0043ms 500 text/html; charset=utf-8
+2018-01-05 12:00:18.4883|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/  
+2018-01-05 12:00:18.6707|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 211.2788ms 404 text/plain
+2018-01-05 12:00:18.6939|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/favicon.ico  
+2018-01-05 12:00:18.6939|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.5822ms 404 text/plain
+2018-01-05 12:00:28.3560|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:5299/api/cities/2/pointsOfInterest/1 application/json 45
+2018-01-05 12:00:28.4427|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) with arguments (2, 1) - ModelState is Valid
+2018-01-05 12:00:28.4642|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-01-05 12:00:28.4745|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) in 52.5894ms
+2018-01-05 12:00:28.4867|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 129.2084ms 204 
+2018-01-05 13:13:47.3824|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/  
+2018-01-05 13:13:47.5698|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 221.1831ms 404 text/plain
+2018-01-05 13:13:47.5949|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/favicon.ico  
+2018-01-05 13:13:47.5949|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.3743ms 404 text/plain
+2018-01-05 13:13:52.0913|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:5299/api/cities/2/pointsOfInterest/1 application/json 45
+2018-01-05 13:13:52.1759|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) with arguments (2, 1) - ModelState is Valid
+2018-01-05 13:13:52.1946|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-01-05 13:13:52.2035|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) in 48.7679ms
+2018-01-05 13:13:52.2035|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 122.3487ms 204 
+2018-01-05 13:29:42.5992|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/  
+2018-01-05 13:29:42.7779|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 206.7388ms 404 text/plain
+2018-01-05 13:29:42.8030|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/favicon.ico  
+2018-01-05 13:29:42.8030|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.8449ms 404 text/plain
+2018-01-05 13:29:47.5654|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:5299/api/cities/2/pointsOfInterest/1 application/json 45
+2018-01-05 13:29:47.6579|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) with arguments (2, 1) - ModelState is Valid
+2018-01-05 13:29:47.6760|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-01-05 13:29:47.6760|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) in 49.067ms
+2018-01-05 13:29:47.6955|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 129.9598ms 204 
+2018-01-05 13:31:27.8414|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/  
+2018-01-05 13:31:28.0232|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 209.3399ms 404 text/plain
+2018-01-05 13:31:28.0475|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5299/favicon.ico  
+2018-01-05 13:31:28.0475|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.3257ms 404 text/plain
+2018-01-05 13:31:30.7071|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:5299/api/cities/2/pointsOfInterest/1 application/json 45
+2018-01-05 13:31:30.7893|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) with arguments (2, 1) - ModelState is Valid
+2018-01-05 13:31:30.8074|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2018-01-05 13:31:30.8169|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) in 47.7252ms
+2018-01-05 13:31:30.8169|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 118.874ms 204 
