@@ -1,14 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper;
-using CityInfo.Entities;
 using CityInfo.Models;
 using CityInfo.Services;
-using Microsoft.WindowsAzure.Storage;
 
 namespace CityInfo.Controllers
 {
